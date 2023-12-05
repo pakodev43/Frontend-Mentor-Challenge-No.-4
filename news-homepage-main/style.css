@@ -1,0 +1,90 @@
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* :root {
+    /* Variables */
+    /* Colors */
+    /*  */
+
+    /* - Soft orange: hsl(35, 77%, 62%)
+    - Soft red: hsl(5, 85%, 63%)
+
+    /* ### Neutral */
+/* 
+    Off-white: hsl(36, 100%, 99%)
+    Grayish blue: hsl(233, 8%, 79%)
+    Dark grayish blue: hsl(236, 13%, 42%)
+    Very dark blue: hsl(240, 100%, 5%)
+} */ */ */
+
+
+
+/* STARTING */
+
+body{
+    max-width: 1400px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0.5rem;
+}
+
+.header .logo img{
+    width: 3em;
+}
+
+.header .nav_bar ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header .nav_bar ul li{
+    margin-right: 1.5rem;
+    list-style-type: none;
+}
+
+.header .nav_bar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0.25em 0.5em;
+}
+
+
+
+
+
+
+/* MAIN */
+
+.main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.main .main_content, .main .aside{
+    min-height: 300px;
+    background-color: darkmagenta;
+    /* width: auto;
+    margin: auto; */
+}
+
+.main .main_content{
+    border: 5px solid blue;
+}
+
+.main .aside{
+    border: 5px solid green;
+}
+
+
+
