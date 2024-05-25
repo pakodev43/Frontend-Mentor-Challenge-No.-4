@@ -37,4 +37,4 @@ Users should be able to:
 
  PAKODEV WEB DEVELOPER
 
-- Frontend Mentor - [@PakoDev63](https://github.com/PakoDev63)
+- Frontend Mentor - [@PakoDev63](https://github.com/PakoDev43)
